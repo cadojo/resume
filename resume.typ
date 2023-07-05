@@ -5,7 +5,7 @@
   title: "Technical Résumé",
   email: decorated("icons/mail.svg", link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
   phone: decorated("icons/phone.svg", link("tel:+12026602578", `+1 202.660.2578`)),
-  theme: rgb(0,75,0),
+  theme: rgb(95,130,95),
   side: stack(spacing: 3em, projects(header: "Open Source "), socials(header: "Personal Media"),
   ),
 )
