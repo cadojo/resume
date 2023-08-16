@@ -40,6 +40,7 @@
       "top": 1in,
       "bottom": 0.5in,
     ), 
+    fill: white,
     background: place(
         right + bottom, rect( 
         fill: theme,      
