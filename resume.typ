@@ -4,7 +4,7 @@
 #show: resume.with(
   name: "Joey Carpinelli",
   title: "Technical Résumé",
-  url: link("https://loopy.codes/portfolio/resume.pdf", "resume.loopy.codes"),
+  url: link("https://resume.loopy.codes", "resume.loopy.codes"),
   email: decorated("icons/mail.svg", link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
   phone: decorated("icons/phone.svg", link("tel:+12026602578", `+1 202.660.2578`)),
   theme: rgb(95,130,95),
