@@ -37,7 +37,7 @@
   start: "August 2016",
   stop: "May 2021",
 )[
-- Graduate Assistant under Dr. Dave Akin as of August 2019; led robot software development (C++)
+- Led core robot software development (C++, ROS) as Graduate Assistant under Dr. Dave Akin
 - Developed novel Julia package to generate symbolic manipulator kinematics models; implemented and merged required changes to `ModelingToolkit.jl`; intermediate Jacobian performance substantially improved over #link("https://orocos.org", "Orocos") iterative solvers; implemented fast inverse-kinematics algorithm
 - Created C++ interfaces (templates) and implementations for control, including force/torque control
 - Maintained operator GUI (Python); diver for Neutral Buoyancy Research Facility Maintenance
@@ -88,16 +88,18 @@
 
 #skill("Computer Programming")[
   - Experienced Julia & Python developer; aerospace dynamics, simulation, and analysis applications
-  - Productive C/C++ developer; robot core software, kinematics, & control applications
+  - Experienced C/C++ developer; robot core software, kinematics, & control applications
+  - Currently tutoring student seeking C/C++ certification; student is passing practice tests with margin
 ]
 
 #skill("Modeling & Simulation")[
-  - Experienced with linear model reduction, linear analysis, and nonlinear analysis methods
+  - Utilized linear model reduction, linear analysis, and nonlinear analysis techniques
+  - Frequent 6DOF monte-carlo simulations (NASA, Trick), stiff differential equation solves (Julia) 
 ]
 
-#skill("Circuit Design")[
-  - Digital & analog lab experience, including Verilog, SPICE, PSpice, Xilinx, oscilloscopes, Eagle CAD
-]
+// #skill("Circuit Design")[
+//   - Digital & analog lab experience, including Verilog, SPICE, PSpice, Xilinx, oscilloscopes, Eagle CAD
+// ]
 
 #project(
   `GeneralAstrodynamics.jl`,
