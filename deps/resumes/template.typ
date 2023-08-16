@@ -1,15 +1,4 @@
-# 📝 `vita`
-
-_Professional résumé templates with Typst!_
-
-## Usage
-
-<details>
-
-<summary>Template</summary>
-
-```typst
-#import "@preview/vita:0.1.0": *
+#import "vita.typ": *
 
 //
 // Assuming an icons directory exists, filled with SVG files,
@@ -123,12 +112,3 @@ _Professional résumé templates with Typst!_
   link("https://elle.woods.fashionlaw", `elle.woods.fashionlaw`),
   icon: "icons/home.svg",
 )
-```
-
-</details>
-
-## Licenses
-
-All content in this repository is covered by the top-level [MIT License](/LICENSE), except for icons, which are not original content and are licensed by [ICONAIR](/icons/ICONOIR).
-
- 

@@ -1,12 +1,14 @@
-#import "deps/resumes/resume.typ": *
+// #import "@preview/vita:0.1.0": *
+#import "deps/resumes/vita.typ": *
 
-#show: modern.with(
+#show: resume.with(
   name: "Joey Carpinelli",
   title: "Technical Résumé",
+  url: link("https://loopy.codes/portfolio/resume.pdf", "resume.loopy.codes"),
   email: decorated("icons/mail.svg", link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
   phone: decorated("icons/phone.svg", link("tel:+12026602578", `+1 202.660.2578`)),
   theme: rgb(95,130,95),
-  side: stack(spacing: 3em, projects(header: "Open Source "), socials(header: "Personal Media"),
+  side: stack(spacing: 3em, projects(header: link("https://loopy.codes/packages", "FOSS Projects")), socials(header: "Personal Media"),
   ),
 )
 
@@ -98,34 +100,40 @@
 ]
 
 #project(
+  `GeneralAstrodynamics.jl`,
+  url: "https://juliahub.com/ui/Packages/GeneralAstrodynamics/o9DTc/",
+  description: "General calculations, visualizations, and halo & manifold solvers. Presented at " + link("https://www.youtube.com/watch?v=WnvKaUsGv8w", "JuliaCon") + "!"
+)
+
+#project(
+  `KinematicChains.jl`,
+  url: "https://github.com/cadojo/KinematicChains.jl",
+  description: "In-development forward & inverse kinematics, and Jacobian solvers for robotic manipulators."
+)
+
+#project(
   `AstrodynamicalModels.jl`,
   url: "https://juliahub.com/ui/Packages/AstrodynamicalModels/dBq8P/",
   
-  description: "Model generation — with optional state transition matrix dynamics — through " + `ModelingToolkit.jl` + "."
+  description: "Model generation, with optional state transition matrix dynamics."
 )
 
 #project(
-  `GeneralAstrodynamics.jl`,
-  url: "https://juliahub.com/ui/Packages/GeneralAstrodynamics/o9DTc/",
-  description: "General calculations, visualizations, iterative & analytical periodic orbit solvers, and orbit-manifold solvers. Presented at " + link("https://www.youtube.com/watch?v=WnvKaUsGv8w", "JuliaCon") + "!"
-)
-
-#project(
-  `SPICEApplications.jl`,
-  url: "https://juliahub.com/ui/Packages/SPICEApplications/jbBPX/",
-  description: "All SPICE toolkit applications, wrapped in Julia functions with high-level syntax."
+  `SPICEBodies.jl`,
+  url: "https://github.com/cadojo/SPICEBodies.jl",
+  description: "Simple Julia interface to retrieving ephemeris and physical body data from loaded kernels."
 )
 
 #project(
   `SPICEKernels.jl`,
   url: "https://juliahub.com/ui/Packages/SPICEKernels/CNqSw//",
-  description: "All general kernels provided by NASA, exposed and cached through Julia functions."
+  description: "All generic kernels provided by NASA, exposed and cached through Julia functions. See also: " + link("https://juliahub.com/ui/Packages/SPICEApplications/jbBPX/0.3.0", `SPICEApplications.jl`) + "."
 )
 
 #project(
-  `HorizonsAPI.jl`,
-  url: "https://juliahub.com/ui/Packages/HorizonsAPI/Czlta/",
-  description: "A word-for-word wrapper for the JPL Horizons REST API. Fetch solar system ephemeris for free! See also: " + link("https://juliahub.com/ui/Packages/HorizonsEphemeris/kkYwn/", `HorizonsEphemeris.jl`) + "."
+  `HorizonsEphemeris.jl`,
+  url: "https://juliahub.com/ui/Packages/HorizonsEphemeris/kkYwn",
+  description: "Request JPL Horizons ephemeris data from within Julia, with a simplified interface! For a verbatim wrapper, see " + link("https://juliahub.com/ui/Packages/HorizonsAPI/Czlta", `HorizonsAPI.jl`) + "."
 )
 
 #project(
@@ -139,17 +147,20 @@
   url: "https://juliahub.com/ui/Packages/CommonLicenses/UtW6h/",
   description: "Inline any " + link("https://spdx.org/licenses/", "standard license") + " into your executable document! For example: " + `CommonLicenses.MIT()` + ".",
 )
+
 #project(
   `module-hygiene`,
   url: "https://pypi.org/project/module-hygiene",
-  description: "Provides an " + `__export__` + " key, and an associated " + `cleanup` + " function to reduce namespace clutter. See also, " + link("https://pypi.org/project/block-scopes", `block-scopes`) + "."
+  description: "Provides an " + `__export__` + " key for namespace hygiene. See also: " + link("https://pypi.org/project/block-scopes", `block-scopes`) + "."
 )
+
 
 #project(
   `rich-admonitions`,
   url: "https://pypi.org/project/rich-admonitions",
   description: "Extends the excellent terminal formatting package " + `rich` + " with Julia-style Markdown admonition blocks!"
 )
+
 
 #social(
   link("https://github.com/cadojo", `@cadojo`),
@@ -162,6 +173,6 @@
 )
 
 #social(
-  link("https://loopy.software", `https://loopy.software`),
+  link("https://loopy.codes", `https://loopy.codes`),
   icon: "icons/home.svg",
 )
