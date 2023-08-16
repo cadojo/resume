@@ -103,7 +103,7 @@
 
 #project(
   `GeneralAstrodynamics.jl`,
-  url: "https://juliahub.com/ui/Packages/GeneralAstrodynamics/o9DTc/",
+  url: "https://github.com/cadojo/GeneralAstrodynamics.jl",
   description: "General calculations, visualizations, and halo & manifold solvers. Presented at " + link("https://www.youtube.com/watch?v=WnvKaUsGv8w", "JuliaCon") + "!"
 )
 
@@ -115,7 +115,7 @@
 
 #project(
   `AstrodynamicalModels.jl`,
-  url: "https://juliahub.com/ui/Packages/AstrodynamicalModels/dBq8P/",
+  url: "https://github.com/cadojo/AstrodynamicalModels.jl",
   
   description: "Model generation, with optional state transition matrix dynamics."
 )
@@ -128,38 +128,38 @@
 
 #project(
   `SPICEKernels.jl`,
-  url: "https://juliahub.com/ui/Packages/SPICEKernels/CNqSw//",
-  description: "All generic kernels provided by NASA, exposed and cached through Julia functions. See also: " + link("https://juliahub.com/ui/Packages/SPICEApplications/jbBPX/0.3.0", `SPICEApplications.jl`) + "."
+  url: "https://github.com/cadojo/SPICEKernels.jl",
+  description: "All generic kernels provided by NASA, exposed and cached through Julia functions. See also: " + link("https://github.com/cadojo/SPICEApplications.jl", `SPICEApplications.jl`) + "."
 )
 
 #project(
   `HorizonsEphemeris.jl`,
-  url: "https://juliahub.com/ui/Packages/HorizonsEphemeris/kkYwn",
-  description: "Request JPL Horizons ephemeris data from within Julia, with a simplified interface! For a verbatim wrapper, see " + link("https://juliahub.com/ui/Packages/HorizonsAPI/Czlta", `HorizonsAPI.jl`) + "."
+  url: "https://github.com/cadojo/HorizonsEphemeris.jl",
+  description: "Request JPL Horizons ephemeris data from within Julia, with a simplified interface! For a verbatim wrapper, see " + link("https://github.com/cadojo/HorizonsAPI.jl", `HorizonsAPI.jl`) + "."
 )
 
 #project(
   `PolynomialGTM.jl`,
-  url: "https://juliahub.com/ui/Packages/PolynomialGTM/vYwLR/",
+  url: "https://github.com/cadojo/PolynomialGTM.jl",
   description: "Implements publicly available polynomial models for NASA's Generic Transport Model using " + `ModelingToolkit.jl` + "."
 )
 
 #project(
   `CommonLicenses.jl`,
-  url: "https://juliahub.com/ui/Packages/CommonLicenses/UtW6h/",
+  url: "https://github.com/cadojo/CommonLicenses.jl",
   description: "Inline any " + link("https://spdx.org/licenses/", "standard license") + " into your executable document! For example: " + `CommonLicenses.MIT()` + ".",
 )
 
 #project(
   `module-hygiene`,
-  url: "https://pypi.org/project/module-hygiene",
-  description: "Provides an " + `__export__` + " key for namespace hygiene. See also: " + link("https://pypi.org/project/block-scopes", `block-scopes`) + "."
+  url: "https://github.com/cadojo/module-hygiene",
+  description: "Provides an " + `__export__` + " key for namespace hygiene. See also: " + link("https://github.com/cadojo/block-scopes", `block-scopes`) + "."
 )
 
 
 #project(
   `rich-admonitions`,
-  url: "https://pypi.org/project/rich-admonitions",
+  url: "https://github.com/cadojo/rich-admonitions",
   description: "Extends the excellent terminal formatting package " + `rich` + " with Julia-style Markdown admonition blocks!"
 )
 
