@@ -1,7 +1,7 @@
 #let degreeslist = state("degreeslist", ())
 
 #let duration(start, stop) = {
-  text(rgb(130,130,130))[
+  text(rgb(90,90,90))[
     #start #if (start != none and stop != none) { " — " } #stop
   ]
 }
@@ -23,7 +23,7 @@
       ]
     )
     #if school != none {
-      set text(rgb(100,100,100))
+      set text(rgb(90,90,90))
       v(-0.75em)
       heading(level: 3, school)
     }
