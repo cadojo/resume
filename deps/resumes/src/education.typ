@@ -23,9 +23,9 @@
       ]
     )
     #if school != none {
-      set text(rgb(90,90,90))
+      set text(rgb(90,90,90), weight: "regular")
       v(-0.75em)
-      heading(level: 3, school)
+      school
     }
     #notes
   ]
