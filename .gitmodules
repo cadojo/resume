@@ -1,3 +1,6 @@
 [submodule "resumes"]
 	path = resumes
 	url = git@github.com:cadojo/resumes.git
+[submodule "correspondence"]
+	path = correspondence
+	url = git@github.com:cadojo/correspondence
