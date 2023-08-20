@@ -66,7 +66,6 @@
 #degree(
   "M.S.", "Aerospace Engineering",
   school: "University of Maryland, College Park",
-  start: "August 2019",
   stop: "May 2021"
 )[
   - Research assistant under Dr. Akin; space robotics (manipulator) software lead, primary operator
