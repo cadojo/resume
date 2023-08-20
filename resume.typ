@@ -70,7 +70,7 @@
   stop: "May 2021"
 )[
   - Research assistant under Dr. Akin; space robotics (manipulator) software lead, primary operator
-  - Halo orbit & invariant-manifold research project with Professor Barbee; released as open source tools
+  - Halo orbit & invariant-manifold research project with Instructor Barbee; released as open source tools
   - Emphasis in space systems, prioritized dynamics & controls in coursework
 ]
 
@@ -82,7 +82,6 @@
   - Four control theory courses, four computer science courses; major emphasis in control theory
   - Undergraduate Research Assistant under Dr. Akin at SSL; ROS/Orocos software lead in third year
   - Implemented inertial and viscous friction compensation for SSL's MGA Exoskeleton (Galil, UART)
-
 ]
 
 #skill("Computer Programming")[
