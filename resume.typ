@@ -1,4 +1,4 @@
-#import "correspondence/src/vita/vita.typ": *
+#import "exploration/src/vita/vita.typ": *
 
 #show: resume.with(
   name: "Joey Carpinelli",
