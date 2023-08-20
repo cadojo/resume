@@ -4,3 +4,6 @@
 [submodule "correspondence"]
 	path = correspondence
 	url = git@github.com:cadojo/correspondence
+[submodule "exploration"]
+	path = exploration
+	url = git@github.com:cadojo/exploration
