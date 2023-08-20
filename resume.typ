@@ -4,8 +4,8 @@
   name: "Joey Carpinelli",
   title: "Technical Résumé",
   url: link("https://resume.loopy.codes", "resume.loopy.codes"),
-  email: decorated(image("correspondence/src/icons/mail.svg", height: 1.5em), link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
-  phone: decorated(image("correspondence/src/icons/phone.svg", height: 1.5em), link("tel:+12026602578", `+1 202.660.2578`)),
+  email: decorated(image("exploration/src/icons/mail.svg", height: 1.5em), link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
+  phone: decorated(image("exploration/src/icons/phone.svg", height: 1.5em), link("tel:+12026602578", `+1 202.660.2578`)),
   theme: rgb(95,130,95),
   side: stack(spacing: 3em, projects(header: link("https://loopy.codes/packages", "FOSS Projects")), socials(header: "Personal Media"),
   ),
@@ -165,15 +165,15 @@
 
 #social(
   link("https://github.com/cadojo", `@cadojo`),
-  icon: image("correspondence/src/icons/github.svg", height: 1.5em),
+  icon: image("exploration/src/icons/github.svg", height: 1.5em),
 )
 
 #social(
   link("https://www.linkedin.com/in/joeycarp/", `in/joeycarp`),
-  icon: image("correspondence/src/icons/linkedin.svg", height: 1.5em),
+  icon: image("exploration/src/icons/linkedin.svg", height: 1.5em),
 )
 
 #social(
   link("https://loopy.codes", `https://loopy.codes`),
-  icon: image("correspondence/src/icons/home.svg", height: 1.5em),
+  icon: image("exploration/src/icons/home.svg", height: 1.5em),
 )
