@@ -1,11 +1,11 @@
-#import "exploration/src/vita/vita.typ": *
+#import "correspondence/src/vita/vita.typ": *
 
 #show: resume.with(
   name: "Joey Carpinelli",
   title: "Technical Résumé",
   url: link("https://resume.loopy.codes", "resume.loopy.codes"),
-  email: decorated(image("exploration/src/icons/mail.svg", height: 1.5em), link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
-  phone: decorated(image("exploration/src/icons/phone.svg", height: 1.5em), link("tel:+12026602578", `+1 202.660.2578`)),
+  email: decorated(image("correspondence/src/icons/mail.svg", height: 1.5em), link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
+  phone: decorated(image("correspondence/src/icons/phone.svg", height: 1.5em), link("tel:+12026602578", `+1 202.660.2578`)),
   theme: rgb(95,130,95),
   side: stack(spacing: 3em, projects(header: link("https://loopy.codes/packages", "FOSS Projects")), socials(header: "Personal Media"),
   ),
@@ -69,7 +69,7 @@
   stop: "May 2021"
 )[
   - Research assistant under Dr. Akin; space robotics (manipulator) software lead, primary operator
-  - Halo orbit & invariant-manifold research project with Instructor Barbee; released as open source tools
+  - Halo orbit & invariant-manifold research project with Instructor Barbee; released as open source
   - Emphasis in space systems, prioritized dynamics & controls in coursework
 ]
 
@@ -163,15 +163,15 @@
 
 #social(
   link("https://github.com/cadojo", `@cadojo`),
-  icon: image("exploration/src/icons/github.svg", height: 1.5em),
+  icon: image("correspondence/src/icons/github.svg", height: 1.5em),
 )
 
 #social(
   link("https://www.linkedin.com/in/joeycarp/", `in/joeycarp`),
-  icon: image("exploration/src/icons/linkedin.svg", height: 1.5em),
+  icon: image("correspondence/src/icons/linkedin.svg", height: 1.5em),
 )
 
 #social(
   link("https://loopy.codes", `https://loopy.codes`),
-  icon: image("exploration/src/icons/home.svg", height: 1.5em),
+  icon: image("correspondence/src/icons/internet.svg", height: 1.5em),
 )

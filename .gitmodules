@@ -3,7 +3,7 @@
 	url = git@github.com:cadojo/resumes.git
 [submodule "correspondence"]
 	path = correspondence
-	url = git@github.com:cadojo/correspondence
+	url = https://github.com/cadojo/correspondence
 [submodule "exploration"]
-	path = exploration
+	path = correspondence
 	url = git@github.com:cadojo/exploration
