@@ -7,7 +7,7 @@
   email: decorated(image("correspondence/src/icons/mail.svg", height: 1.5em), link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
   phone: decorated(image("correspondence/src/icons/phone.svg", height: 1.5em), link("tel:+12026602578", `+1 202.660.2578`)),
   theme: rgb(95,130,95),
-  side: stack(spacing: 3em, projects(header: link("https://loopy.codes/packages", "FOSS Projects")), socials(header: "Personal Media"),
+  side: stack(spacing: 3em, projects(header: link("https://loopy.codes/packages", "Personal Projects")), socials(header: "Personal Media"),
   ),
 )
 
@@ -23,9 +23,9 @@
 )[
 - Full time as of July 2021; Orion's Launch Abort System GN&C development, analysis, verification
 - Reduced, analyzed, and implemented flexible body (structure) model (MATLAB, C++)
-- Uses monte-carlo simulations for parameter tuning; improved vehicle performance noticeably 
-- Uses linear analysis to analyze vehicle performance, verify stability margins; validates linear models
-- Serves as backup regression data approver for simulated Orion Launch Abort System performance
+- Used monte-carlo simulations for parameter tuning; improved vehicle performance noticeably 
+- Used linear analysis to analyze vehicle performance, verify stability margins; validates linear models
+- Served as backup regression data approver for simulated Orion Launch Abort System performance
 - Led development for polarity tests; created novel $6$DOF kinematics simulation (Julia, Python); represented Orion GN&C at multiple lab tests in three states: Texas, Colorado, Florida
 
 ]
@@ -86,17 +86,14 @@
 #skill("Computer Programming")[
   - Experienced Julia & Python developer; aerospace dynamics, simulation, and analysis applications
   - Experienced C/C++ developer; robot core software, kinematics, & control applications
-  - Currently tutoring student seeking C/C++ certification; student is passing practice tests with margin
+  - Currently tutoring student seeking C/C++ certification
 ]
 
 #skill("Modeling & Simulation")[
   - Utilized linear model reduction, linear analysis, and nonlinear analysis techniques
   - Frequent 6DOF monte-carlo simulations (NASA, Trick), stiff differential equation solves (Julia) 
+  - Near-daily HPC use through `slurm` for general compute resources, and massively parallel simulations
 ]
-
-// #skill("Circuit Design")[
-//   - Digital & analog lab experience, including Verilog, SPICE, PSpice, Xilinx, oscilloscopes, Eagle CAD
-// ]
 
 #project(
   `GeneralAstrodynamics.jl`,
@@ -105,29 +102,18 @@
 )
 
 #project(
-  `KinematicChains.jl`,
-  url: "https://github.com/cadojo/KinematicChains.jl",
-  description: "In-development forward & inverse kinematics, and Jacobian solvers for robotic manipulators."
-)
-
-#project(
   `AstrodynamicalModels.jl`,
   url: "https://github.com/cadojo/AstrodynamicalModels.jl",
   
-  description: "Model generation, with optional state transition matrix dynamics."
-)
-
-#project(
-  `SPICEBodies.jl`,
-  url: "https://github.com/cadojo/SPICEBodies.jl",
-  description: "Simple Julia interface to retrieving ephemeris and physical body data from loaded kernels."
+  description: "Model generation, with optional state transition matrix dynamics. See also: " + link("https://github.com/cadojo/AstrodynamicalCalculations.jl", `AstrodynamicalCalculations.jl`) + "."
 )
 
 #project(
   `SPICEKernels.jl`,
   url: "https://github.com/cadojo/SPICEKernels.jl",
-  description: "All generic kernels provided by NASA, exposed and cached through Julia functions. See also: " + link("https://github.com/cadojo/SPICEApplications.jl", `SPICEApplications.jl`) + "."
+  description: "All generic kernels provided by NASA, exposed and cached through Julia functions. See also: " + link("https://github.com/cadojo/SPICEApplications.jl", `SPICEApplications.jl`) + ", " + link("https://github.com/cadojo/SPICEBodies.jl", `SPICEBodies.jl`) + "."
 )
+
 
 #project(
   `HorizonsEphemeris.jl`,
@@ -145,6 +131,12 @@
   `CommonLicenses.jl`,
   url: "https://github.com/cadojo/CommonLicenses.jl",
   description: "Inline any " + link("https://spdx.org/licenses/", "standard license") + " into your executable document! For example: " + `CommonLicenses.MIT()` + ".",
+)
+
+#project(
+  `dimples`,
+  url: "https://github.com/cadojo/dimples",
+  description: "An ongoing experiment in improved Python packaging and environment replication, with inspiration from Julia's " + `Pkg.jl` + "."
 )
 
 #project(
