@@ -1,12 +1,12 @@
 #import "correspondence/src/vita/vita.typ": *
 
 #show: resume.with(
-  name: "Joey Carpinelli",
+  name: "Joseph D Carpinelli",
   title: "Technical Résumé",
   url: link("https://resume.loopy.codes", "resume.loopy.codes"),
   email: decorated(image("correspondence/src/icons/mail.svg", height: 1.5em), link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
   phone: decorated(image("correspondence/src/icons/phone.svg", height: 1.5em), link("tel:+12026602578", `+1 202.660.2578`)),
-  theme: rgb(95,130,95),
+  theme: rgb("#588157"),
   side: stack(spacing: 3em, projects(header: link("https://loopy.codes/packages", "Personal Projects")), socials(header: "Personal Media"),
   ),
 )
@@ -32,12 +32,12 @@
 
 #experience(
   "Space Systems Laboratory (SSL)",
-  role: "Graduate Assistant",
+  role: ("Graduate Research Assistant", "Undergraduate Research Assistant"),
   start: "August 2016",
   stop: "May 2021",
 )[
 - Led core robot software development (C++, ROS) as Graduate Assistant under Dr. Dave Akin
-- Developed novel Julia package to generate symbolic manipulator kinematics models; implemented and merged required changes to `ModelingToolkit.jl`; intermediate Jacobian performance substantially improved over #link("https://orocos.org", "Orocos") iterative solvers; implemented fast inverse-kinematics algorithm
+- Developed novel Julia package to generate symbolic manipulator kinematics models; implemented and merged required changes to `Symbolics.jl`; intermediate Jacobian performance substantially improved over #link("https://orocos.org", "Orocos") iterative solvers; implemented improved inverse-kinematics algorithm
 - Created C++ interfaces (templates) and implementations for control, including force/torque control
 - Maintained operator GUI (Python); diver for Neutral Buoyancy Research Facility Maintenance
 ]
