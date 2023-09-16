@@ -1,9 +1,9 @@
 #import "correspondence/src/vita/vita.typ": *
 
 #show: resume.with(
-  name: "Joseph D Carpinelli",
+  name: "Joseph D. Carpinelli",
   title: "Technical Résumé",
-  url: link("https://resume.loopy.codes", "resume.loopy.codes"),
+  url: link("https://resume.loopy.codes", "https://resume.loopy.codes"),
   email: decorated(image("correspondence/src/icons/mail.svg", height: 1.5em), link("mailto:joey@carpinelli.email", `joey@carpinelli.email`)),
   phone: decorated(image("correspondence/src/icons/phone.svg", height: 1.5em), link("tel:+12026602578", `+1 202.660.2578`)),
   theme: rgb("#588157"),
