@@ -1,9 +1,9 @@
 compile:
 	typst compile resume.typ docs/carpinelli-resume.pdf
-	$(MAKE) copy
 
 watch:
 	typst watch resume.typ docs/carpinelli-resume.pdf
 
-copy:
-	cp docs/carpinelli-resume.pdf docs/'Carpinelli — Resume.pdf'
+checkout: compile
+	cp docs/carpinelli-resume.pdf ~/Desktop/'Carpinelli — Resume (Formatted).pdf'
+	cp docs/carpinelli-resume-plaintext.pdf ~/Desktop/'Carpinelli — Resume.pdf'
