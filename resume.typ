@@ -17,17 +17,17 @@
 
 #experience(
   "NASA Johnson Space Center (JSC)",
-  role: ("GN&C Engineer", "Pathways Intern", "USRA Intern"),
+  role: ("Integrated GN&C Analysis Engineer", "Pathways Intern", "USRA Intern"),
   start: "August 2017",
   stop: "Present"
 )[
-- Full time as of July 2021; Orion's Launch Abort System GN&C development, analysis, verification
-- Reduced, analyzed, and implemented flexible body (structure) model (MATLAB, C++)
-- Used monte-carlo simulations for parameter tuning; improved vehicle performance noticeably 
+- FTE in July 2021; supported Orion's Launch Abort System GN&C development, analysis, verification
+- Integrated flexible structure model with linear and nonlinear simulation frameworks (MATLAB, C++)
+- Used massively parallel monte-carlo simulations with `slurm`; improved vehicle performance 
 - Used linear analysis to analyze vehicle performance, verify stability margins; validates linear models
 - Served as backup regression data approver for simulated Orion Launch Abort System performance
 - Led development for polarity tests; created novel $6$DOF kinematics simulation (Julia, Python); represented Orion GN&C at multiple lab tests in three states: Texas, Colorado, Florida
-
+- Developed LaTeX packages and classes to improve technical writing workflows
 ]
 
 #experience(
@@ -69,7 +69,7 @@
   stop: "May 2021"
 )[
   - Research assistant under Dr. Akin; space robotics (manipulator) software lead, primary operator
-  - Halo orbit & invariant-manifold research project with Instructor Barbee; released as open source
+  - Halo orbit & invariant-manifold research project with Instructor Barbee; now open source
   - Emphasis in space systems, prioritized dynamics & controls in coursework
 ]
 
@@ -85,14 +85,13 @@
 
 #skill("Computer Programming")[
   - Experienced Julia & Python developer; aerospace dynamics, simulation, and analysis applications
-  - Experienced C/C++ developer; robot core software, kinematics, & control applications
-  - Currently tutoring student seeking C/C++ certification
+  - Experienced C/C++ developer; robot core software, dynamical simulation applications
+  - Currently tutoring student seeking C/C++ certification, and graduate manipulator dynamics students
 ]
 
 #skill("Modeling & Simulation")[
-  - Utilized linear model reduction, linear analysis, and nonlinear analysis techniques
-  - Frequent 6DOF monte-carlo simulations (NASA, Trick), stiff differential equation solves (Julia) 
-  - Near-daily HPC use through `slurm` for general compute resources, and massively parallel simulations
+  - Utilized linear model reduction, linear analysis, and nonlinear dynamical analysis techniques
+  - Frequent 6DOF monte-carlo simulations (NASA, Trick, `slurm`), stiff differential equation solves (Julia) 
 ]
 
 #project(
